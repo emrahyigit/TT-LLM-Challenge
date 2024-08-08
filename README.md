@@ -8,17 +8,5 @@ This Python code reads the contents of a PDF menu that contains images and categ
 2. Navigate to the project directory: `cd your-repo`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
-## Usage
-1. Run the Python script: `python your_script.py`
-2. Follow the on-screen instructions (if any).
-
-## Contributing
-If you'd like to contribute to this project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b your-branch-name`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin your-branch-name`
-5. Submit a pull request.
-
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).

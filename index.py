@@ -45,14 +45,7 @@ def process_file(pdf_path):
                 "type": "json_object"
             },
             messages=[
-                {"role": "system", "content": "Sen, yemek menüsü içeren metinleri JSON formatına dönüştüren bir asistansın." + 
-                "Bu menülerde yemeklerin dışında bazı yazılar da bulunabilir." + 
-                "Sen sadece yemekleri bulacak, bunları Türkçe ve İngilizce olarak kategorize edecek ve JSON formatına çevireceksin." + 
-                "Her menü, 'Dilediğiniz Zaman' ve 'İnişten Önce' olmak üzere iki ana kategoriye ayrılmaktadır." + 
-                "Bu kategoriler altındaki yemekleri ise 'Başlangıç', 'Ana Yemek', 'Tatlılar' ve 'Ekstralar' olmak üzere dört farklı başlık altında değerlendireceksin." + 
-                "Yemekler büyük harflerle yazılmıştır ve sonrasında içerikleri deve notasyonu ile belirtilmiştir. " +
-                "Taze Ekmek, Kruvasan ve danish benzeri ürünler Ekstralar başlığında bulunmaktadır." + 
-                "JSON objesi öncelikle dil (Türkçe ve English) ve sonrasında ana kategoriyi içermelidir."},
+                {"role": "system", "content": "Sen, yemek menüsü içeren metinleri JSON formatına dönüştüren bir asistansın. Bu menülerde yemeklerin dışında bazı yazılar da bulunabilir. Sen sadece yemekleri bulacak, bunları Türkçe ve İngilizce olarak kategorize edecek ve JSON formatına çevireceksin. Her menü, 'Dilediğiniz Zaman' ve 'İnişten Önce' olmak üzere iki ana kategoriye ayrılmaktadır. Bu kategoriler altındaki yemekleri ise 'Başlangıç', 'Ana Yemek', 'Tatlılar' ve 'Ekstralar' olmak üzere dört farklı başlık altında değerlendireceksin. Yemekler büyük harflerle yazılmıştır ve sonrasında içerikleri deve notasyonu ile belirtilmiştir. Taze Ekmek, Kruvasan ve danish benzeri ürünler Ekstralar başlığında bulunmaktadır. JSON objesi öncelikle dil (Türkçe ve English) ve sonrasında ana kategoriyi içermelidir."},
                 {"role": "user", "content": text}
             ]
         )
@@ -72,4 +65,3 @@ if __name__ == '__main__':
             process_file(f'input/{file}')
     
     print('All files processed successfully.')
-    
