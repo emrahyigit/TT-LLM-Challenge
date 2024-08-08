@@ -1,0 +1,98 @@
+{
+  "Türkçe": {
+    "Dilediğiniz Zaman": {
+      "Başlangıç": [
+        "MARİNE KARİDES VE IZGARA SEBZELER",
+        "MEZE ÇEŞİTLERİ",
+        "KABAK ÇORBASI"
+      ],
+      "Ana Yemek": [
+        "IZGARA MORİNA BALIĞI",
+        "BARBEKÜ SOSLU DANA BONFİLE",
+        "PARMESAN DOMATES SOSLU RİGATONİ MAKARNA"
+      ],
+      "Tatlılar": [
+        "GELENEKSEL TÜRK TATLILARI",
+        "ÇİKOLATALI KEK",
+        "KARAMELLİ KAYISILI KEK",
+        "PEYNİR ÇEŞİTLERİ",
+        "TAZE MEYVE SALATASI"
+      ],
+      "Ekstralar": [
+        "Rozbifli sandviç",
+        "Meyveli tart",
+        "Taze sıcak ekmek çeşitleri",
+        "Kruvasan",
+        "danish"
+      ]
+    },
+    "İnişten Önce": {
+      "Başlangıç": [
+        "Taze portakal suyu",
+        "Taze papaya suyu"
+      ],
+      "Ana Yemek": [
+        "TAVUK GÖĞÜS & FÜME HİNDİ"
+      ],
+      "Tatlılar": [
+        "FRESH FRUIT SALAD",
+        "YOGURT",
+        "PEYNİR ÇEŞİTLERİ",
+        "BAL",
+        "TEREYAĞI"
+      ],
+      "Ekstralar": [
+        "MOZZARELLA VE DOMATESLİ OMLET",
+        "VANİLYA KREMALI KREP"
+      ]
+    }
+  },
+  "English": {
+    "Dine on Demand": {
+      "Starters": [
+        "MARINATED PRAWNS AND GRILLED VEGETABLES",
+        "BEST OF MEZZE",
+        "CREAMY ZUCCHINI SOUP"
+      ],
+      "Main Course": [
+        "GRILLED COD FISH",
+        "STIR FRIED BEEF WITH BBQ",
+        "RIGATONI WITH PARMESAN TOMATO SAUCE"
+      ],
+      "Desserts": [
+        "POTPOURRI OF TRADITIONAL TURKISH DESSERTS",
+        "CHOCOLATE CAKE",
+        "APRICOT CARAMEL CAKE",
+        "SELECTION OF CHEESE",
+        "FRESH FRUIT SALAD"
+      ],
+      "Extras": [
+        "roast beef sandwich",
+        "fruit tartelette",
+        "ovenfresh bread selection",
+        "croissant",
+        "danish"
+      ]
+    },
+    "Before Landing": {
+      "Starters": [
+        "freshly squeezed orange juice",
+        "fresh papaya juice"
+      ],
+      "Main Course": [
+        "CHICKEN BREAST & SMOKED TURKEY"
+      ],
+      "Desserts": [
+        "FRESH FRUIT SALAD",
+        "YOGHURT",
+        "SELECTION OF CHEESE",
+        "HONEY",
+        "BUTTER"
+      ],
+      "Extras": [
+        "MOZZARELLA AND TOMATO OMELETTE",
+        "CREPE WITH VANILLA CUSTARD"
+      ]
+    }
+  }
+}
