@@ -25,7 +25,7 @@ def process_file(pdf_path):
     for page_number in range(len(pdf_document)):
         page = pdf_document.load_page(page_number)
         
-        # Render the page as a PNG image
+        # Get the image data from the page
         pix = page.get_pixmap(matrix=fitz.Matrix(5.0, 5.0))
 
         # Convert the image data to a PIL Image object
@@ -34,7 +34,7 @@ def process_file(pdf_path):
         # Read text from the image
         text = pytesseract.image_to_string(img, lang='tur')
         
-        # Print the text
+        # Send the text to the OpenAI API
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             temperature=0.0,
