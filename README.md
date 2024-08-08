@@ -5,7 +5,7 @@ This Python code reads the contents of a PDF menu that contains images and categ
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/emrahyigit/TT-LLM-Challenge.git`
-2. Navigate to the project directory: `cd your-repo`
+2. Navigate to the project directory: `cd TT-LLM-Challenge`
 3. Install the required dependencies: `pip install -r requirements.txt`
 
 ## License
